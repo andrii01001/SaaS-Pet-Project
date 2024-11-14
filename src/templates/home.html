@@ -3,7 +3,8 @@
 {% block title %}Homepage - {{ block.super }}{% endblock %}
 
 {% block content %}
-<p>Hello Again!</p>
+<h1 class="text-lg font-medium">{{ page_title }}</h1>
+<p >Hello Again!</p>
 {% include 'sniplets/wellcom-user-msg.html' %}
 
 <p>Page visits: {{ page_visit_count }}</p>
